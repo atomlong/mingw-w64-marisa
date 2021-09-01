@@ -9,7 +9,7 @@ url="https://code.google.com/p/marisa-trie"
 license=('LGPL')
 makedepends=('git' 'mingw-w64-configure' 'make')
 options=(!strip !buildflags staticlibs)
-source=("https://marisa-trie.googlecode.com/files/$_pkgname-$pkgver.tar.gz")
+source=("https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/marisa-trie/marisa-${pkgver}.tar.gz")
 sha1sums=('fb0ed7d993e84dff32ec456a79bd36a00022629d')
 _architectures="i686-w64-mingw32 x86_64-w64-mingw32"
 
